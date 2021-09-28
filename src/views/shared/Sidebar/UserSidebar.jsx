@@ -12,16 +12,18 @@ const Sidebar = (props) => {
       <div className="sidebar_section_01">
         <img src={Logo} alt="Logo" />
       </div>
-      <div className="sidebar_section_02">
+
+      <Link to="/uploads/new" className="sidebar_section_02">
         <p>Create New Upload</p>
         <i>
           <FaUpload />
         </i>
-      </div>
+      </Link>
+
       <div className="navbar_menu">
         <ClientNavMenu />
       </div>
-      
+
       <div className="sidebar_section_03">
         <NavBarStrip />
       </div>
