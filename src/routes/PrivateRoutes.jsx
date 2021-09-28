@@ -7,6 +7,7 @@ import SettingsViewPage from "../views/client-user/pages/settings/views/Settings
 import ProfileViewPage from "../views/client-user/pages/profile/views/ProfileViewPage";
 import AdminErrorPage from "../views/client-user/pages/error/AdminPageError";
 import UploadNew from "../views/client-user/pages/uploads/views/UploadNew";
+import UploadPrescriptionForm from "../views/client-user/pages/uploads/views/UploadPrescriptionForm";
 
 const PrivateRoute = ({ path }) => {
   const isAuthenticated = true;
@@ -27,6 +28,8 @@ const PrivateRoute = ({ path }) => {
         return <DefaultLayout component={ContactViewPage} />;
       case "/uploads/new":
         return <DefaultLayout component={UploadNew} />;
+      case "/uploads/presc-form":
+        return <DefaultLayout component={UploadPrescriptionForm} />;
       default:
         return <NotFoundPage />;
     }

@@ -22,6 +22,7 @@ const UserRoutes = (props) => {
       <ProtectedRouteController path="/dashboard" />
       <ProtectedRouteController path="/uploads" exact />
       <ProtectedRouteController path="/uploads/new" exact />
+      <ProtectedRouteController path="/uploads/presc-form" exact />
       <ProtectedRouteController path="/profile" />
       <ProtectedRouteController path="/settings" />
       <ProtectedRouteController path="/contact" />

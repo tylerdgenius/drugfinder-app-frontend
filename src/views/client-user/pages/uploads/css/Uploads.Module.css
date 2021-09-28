@@ -14,7 +14,7 @@
 }
 
 .uploads__child__card__section02 a {
-    color: white
+  color: white;
 }
 
 .uploads__children__icon__button {
@@ -37,4 +37,19 @@
 
 .upload__button__uploader:hover {
   cursor: pointer;
+}
+
+.uploads__child__prescription_form {
+  flex-direction: column;
+}
+
+.uploads__container__flex {
+  flex-direction: column;
+}
+.uploads__child__card__uploadform {
+  margin-top: 20px;
+}
+
+.uploads__child__heading {
+  margin-bottom: 30px;
 }

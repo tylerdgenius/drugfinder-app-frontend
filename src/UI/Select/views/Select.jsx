@@ -8,6 +8,7 @@ const Select = ({
   selectClassName,
   optionClassName,
   placeholder,
+  onChange,
 }) => {
   return (
     <div className={`${classes.select__parent} ${className}`}>
@@ -15,6 +16,7 @@ const Select = ({
         name={name}
         placeholder={placeholder}
         className={`${classes.select__child__select} ${selectClassName}`}
+        onChange={onChange}
       >
         {values.map((value) => {
           return (
