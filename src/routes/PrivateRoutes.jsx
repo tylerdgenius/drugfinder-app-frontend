@@ -6,6 +6,7 @@ import ContactViewPage from "../views/client-user/pages/contact/ContactViewPage"
 import SettingsViewPage from "../views/client-user/pages/settings/views/SettingsViewPage";
 import ProfileViewPage from "../views/client-user/pages/profile/views/ProfileViewPage";
 import AdminErrorPage from "../views/client-user/pages/error/AdminPageError";
+import UploadNew from "../views/client-user/pages/uploads/views/UploadNew";
 
 const PrivateRoute = ({ path }) => {
   const isAuthenticated = true;
@@ -24,8 +25,8 @@ const PrivateRoute = ({ path }) => {
         return <DefaultLayout component={SettingsViewPage} />;
       case "/contact":
         return <DefaultLayout component={ContactViewPage} />;
-      case "/upload/new":
-        return <DefaultLayout component={ContactViewPage} />;
+      case "/uploads/new":
+        return <DefaultLayout component={UploadNew} />;
       default:
         return <NotFoundPage />;
     }

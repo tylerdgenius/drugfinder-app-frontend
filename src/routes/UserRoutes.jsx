@@ -20,12 +20,11 @@ const UserRoutes = (props) => {
       <Route path="/forgot-password" component={ForgotPassword} />
       <Route path="/verify-email" component={VerifyEmail} />
       <ProtectedRouteController path="/dashboard" />
-      <ProtectedRouteController path="/uploads" />
-      <ProtectedRouteController path="/upload/new" />
+      <ProtectedRouteController path="/uploads" exact />
+      <ProtectedRouteController path="/uploads/new" exact />
       <ProtectedRouteController path="/profile" />
       <ProtectedRouteController path="/settings" />
       <ProtectedRouteController path="/contact" />
-      <ProtectedRouteController path="/upload/new" />
       <Route component={NotFoundPage} />
     </Switch>
   );

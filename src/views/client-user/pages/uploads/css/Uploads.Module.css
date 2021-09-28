@@ -1,0 +1,40 @@
+.uploads__child__card__newupload {
+  margin-top: 50px;
+}
+.uploads__child__card__section01 {
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.uploads__child__card__section02 {
+  width: 50%;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.uploads__child__card__section02 a {
+    color: white
+}
+
+.uploads__children__icon__button {
+  margin: 10px 0px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploads__input__form {
+  display: none !important;
+}
+
+.upload__button__uploader {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.upload__button__uploader:hover {
+  cursor: pointer;
+}

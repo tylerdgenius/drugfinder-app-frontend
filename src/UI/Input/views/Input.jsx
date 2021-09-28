@@ -12,18 +12,12 @@ const Input = ({
   placeholder,
 }) => {
   return (
-    <div className={`${classes.input__top} ${className}`}>
+    <div className={`${className} ${classes.input__top} `}>
       <input
         type={type ? type : "text"}
         name={name ? name : ""}
         id={id ? id : ""}
-        onChange={
-          onChange
-            ? onChange
-            : () => {
-                console.log("Button was clicked");
-              }
-        }
+        onChange={onChange ? onChange : () => {}}
         value={value ? value : ""}
         className={`${classes.input__child__input} ${
           inputClassName ? inputClassName : ""

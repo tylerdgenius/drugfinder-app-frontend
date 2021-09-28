@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Text from "../../Text/views/Text";
 import classes from "../css/Button.Module.css";
 
@@ -9,6 +10,7 @@ const Button = ({
   buttonClassName,
   className,
   onClick,
+  link,
 }) => {
   return (
     <>
@@ -19,7 +21,13 @@ const Button = ({
             onClick={onClick}
             className={`${classes.button__child__button} ${buttonClassName}`}
           >
-            <Text content={text} />
+            {link ? (
+              <Link to={link}>
+                <Text content={text} />
+              </Link>
+            ) : (
+              <Text content={text} />
+            )}
           </button>
         </div>
       )}

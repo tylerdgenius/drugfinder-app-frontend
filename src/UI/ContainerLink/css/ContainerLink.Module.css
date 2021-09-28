@@ -1,0 +1,9 @@
+.container__parent {
+  display: flex;
+  box-sizing: border-box;
+}
+.container__parent:hover {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
