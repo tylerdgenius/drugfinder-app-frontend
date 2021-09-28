@@ -1,0 +1,17 @@
+.button__parent {
+  margin: 20px 0px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button__child__button {
+  padding: 15px 40px;
+  background-image: linear-gradient(#fd6061, #ff393b);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}

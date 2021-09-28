@@ -1,0 +1,9 @@
+.label__top {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+  margin: 0px 0px;
+  font-family: Roboto, Arial, Helvetica, Verdana, sans-serif !important;
+  font-size: 12px;
+  font-weight: 800;
+}

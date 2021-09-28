@@ -1,0 +1,18 @@
+.nav_bar_strip {
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 500px;
+  padding: 2px;
+  background-color: white;
+  margin-left: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(49, 49, 49, 0.1);
+}

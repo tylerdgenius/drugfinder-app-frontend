@@ -1,0 +1,52 @@
+.sidebar_main {
+  height: inherit;
+  box-sizing: inherit;
+  padding: 20px;
+  width: 80%;
+}
+
+.sidebar_section_02 {
+  background-color: rgb(11, 14, 97);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-sizing: inherit;
+  font-size: 15px;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.sidebar_section_02:hover {
+  background-color: rgb(9, 14, 160);
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 5px rgba(49, 49, 49, 0.1);
+}
+
+.sidebar_section_02 p {
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.sidebar_section_01 img {
+  height: 50;
+  width: 100%;
+  object-fit: contain;
+}
+
+.sidebar_section_03 {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: inherit;
+  border-top: 1px solid rgb(196, 196, 196);
+  padding: 10px 0px;
+}
+
+.sidebar_section_03 p {
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  margin-left: 10px;
+}

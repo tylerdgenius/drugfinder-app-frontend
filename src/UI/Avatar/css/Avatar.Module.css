@@ -1,0 +1,13 @@
+.avatar__top {
+  /* background-color: blue; */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 10px; */
+}
+
+.avatar__child__img {
+  border-radius: 100%;
+
+}

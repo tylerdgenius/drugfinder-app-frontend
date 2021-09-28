@@ -1,0 +1,24 @@
+.select__parent {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.select__child__select {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select__child__option {
+  outline: none;
+  border: none;
+  margin: 0px 0px;
+  font-family: Roboto, Arial, Helvetica, Verdana, sans-serif !important;
+  font-size: 13.5px;
+}

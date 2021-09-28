@@ -1,0 +1,7 @@
+.socials__parent {
+  display: flex;
+}
+
+.socials__child__text {
+  margin-left: 10px;
+}

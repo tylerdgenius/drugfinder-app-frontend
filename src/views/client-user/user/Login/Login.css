@@ -1,0 +1,120 @@
+.login_page form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.login_page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-self: center;
+  align-items: center; */
+}
+
+.login_form {
+  padding: 150px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_page h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.login_page img {
+  height: 20px;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.login_page_main {
+  background-color: rgb(248, 248, 248);
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100px;
+  flex: 1;
+}
+
+.login_page form input {
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(49, 49, 49, 0.02);
+  border-radius: 5px;
+}
+
+.login_page form input {
+  background-color: white;
+}
+
+.text_links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text_links p {
+  margin: 5px 0px;
+}
+
+.login_page form input:hover {
+  background-color: rgb(204, 204, 255);
+}
+
+.text_under_login {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_under_login p {
+  margin: 0px 0px;
+  font-size: 13px;
+}
+
+.text_under_login a:link {
+  font-weight: 600;
+  color: rgb(0, 0, 102);
+}
+
+.text_under_login a:hover {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(1, 1, 173);
+  transform: translateY(5px) ease-in;
+}
+
+.login_page form button {
+  padding: 10px 20px;
+  border: none;
+  /* margin-top: 10px; */
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 10px rgba(49, 49, 49, 0.01);
+  margin: 10px 60px;
+  color: white;
+  background-color: rgb(3, 3, 167);
+}
+
+.login_page form button:hover {
+  background-color: rgb(0, 0, 102);
+  color: white;
+  box-shadow: 0px 0px 10px 10px rgba(49, 49, 49, 0.01);
+}
