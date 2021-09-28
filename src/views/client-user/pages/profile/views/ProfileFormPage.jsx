@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FileUpload from "../../assets/user/cloud-computing.svg";
+import FileUpload from "../assets/svgs/cloud-computing.svg";
 
 const ProfileForm = (props) => {
   const user = {

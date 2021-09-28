@@ -1,5 +1,5 @@
 import ProfileForm from "./ProfileFormPage";
-import "./Profile.css";
+import "../css/Profile.Module.css";
 
 const ProfileViewPage = () => {
   return (

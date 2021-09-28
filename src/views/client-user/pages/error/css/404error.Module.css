@@ -1,0 +1,23 @@
+.error404__parent {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error404__child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error404__child__text {
+  display: flex;
+  justify-content: center;
+}
+
+.error404__child__heading {
+  font-size: 200px;
+  font-weight: 100;
+}

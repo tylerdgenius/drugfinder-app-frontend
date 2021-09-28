@@ -7,8 +7,7 @@ import IndexPage from "../views/shared/pages/index";
 import Login from "../views/client-user/user/Login/Login";
 import Register from "../views/client-user/user/Register/Register";
 import ProtectedRouteController from "./ProtectedRouteController";
-import NotFoundPage from "../views/client-user/pages/error/404error";
-// import Dashboard from "./views/pages/Dashboard";
+import NotFoundPage from "../views/client-user/pages/error/views/404error";
 
 const UserRoutes = (props) => {
   const isAdmin = "admin";

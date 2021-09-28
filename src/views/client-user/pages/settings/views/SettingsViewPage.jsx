@@ -1,3 +1,5 @@
+import classes from "../css/Settings.Module.css";
+
 const SettingsViewPage = (props) => {
   return (
     <div>

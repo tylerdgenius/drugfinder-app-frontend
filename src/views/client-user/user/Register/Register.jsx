@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import { backendURL } from "../../../../config/config";
 import { fetchData } from "../../../../config/config";
-import { AuthContext } from "../../../../modules/auth/AuthContext";
+import { AuthContext } from "../../../../contexts/auth/AuthContext";
 
 const Register = () => {
   const [email, setEmail] = useState("");

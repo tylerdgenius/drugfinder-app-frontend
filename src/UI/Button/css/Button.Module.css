@@ -9,7 +9,7 @@
 
 .button__child__button {
   padding: 15px 40px;
-  background-image: linear-gradient(#fd6061, #ff393b);
+  background-image: linear-gradient(hsl(244, 100%, 32%), #002488);
   color: white;
   outline: none;
   border: none;

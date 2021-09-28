@@ -1,10 +1,10 @@
 import DefaultLayout from "../views/shared/layout/DefaultLayout";
-import Dashboard from "../views/client-user/pages/Dashboard";
+import Dashboard from "../views/client-user/pages/dashboard/views/Dashboard";
 import UploadsView from "../views/client-user/pages/uploads/UploadsView";
-import NotFoundPage from "../views/client-user/pages/error/404error";
+import NotFoundPage from "../views/client-user/pages/error/views/404error";
 import ContactViewPage from "../views/client-user/pages/contact/ContactViewPage";
-import SettingsViewPage from "../views/client-user/pages/settings/SettingsViewPage";
-import ProfileViewPage from "../views/client-user/profile/ProfileViewPage";
+import SettingsViewPage from "../views/client-user/pages/settings/views/SettingsViewPage";
+import ProfileViewPage from "../views/client-user/pages/profile/views/ProfileViewPage";
 import AdminErrorPage from "../views/client-user/pages/error/AdminPageError";
 
 const PrivateRoute = ({ path }) => {
